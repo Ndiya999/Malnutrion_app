@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+     
+    <!-- Editext for Search -->
+    <EditText android:id="@+id/search_patients"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search patients.."
+        android:inputType="textVisiblePassword"/>
+  
+    <!-- List <a title="Click to Continue > by Text-Enhance" id="_GPLITA_2" style="text-decoration:underline" href="#" in_rurl="http://i.trkjmp.com/click?v=WkE6MzE1NDk6Mjg6dmlldzo0NmI3YTdiYTRhY2YwNDI5YzRiMWViYTdkZGUyMTFiMTp6LTEzNTYtMTc1OTYyOnd3dy5hbmRyb2lkaGl2ZS5pbmZvOjI5NTE0OjYxYzdiNGEzYzI3NTdmMGRjM2ZkZTViYjY5NDM0ZGY4">View</a> -->
+    <ListView
+        android:id="@+id/list_patients"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
